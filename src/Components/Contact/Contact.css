@@ -1,0 +1,76 @@
+.conCont{
+    padding-top: 3%;
+    width: 100%;
+    display: block;
+}
+
+.headerCont {
+    padding-bottom: 20px;
+    color: black;
+}
+
+.headerTitleCont {
+    padding-left: 20%;
+    font-size: 300%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.con-container {
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    display: block;
+    margin-bottom: 3%;
+}
+
+.conInfo{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20%; 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 20%; 
+}
+
+.conT{
+    font-size: 200%;
+    color:rgb(0, 58, 109);
+}
+
+.inputs {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.infoInput {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 5%;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.messageInput {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  padding: 5%;
+  font-size: 1.2rem;
+  resize: none;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #999;
+  opacity: 0.8; /* Override browser default (often 0.6) */
+}

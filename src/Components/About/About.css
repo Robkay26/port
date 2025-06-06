@@ -1,0 +1,46 @@
+.aboutCont{
+    padding-top: 3%;
+    width: 100%;
+    display: block;
+}
+
+.headerCont {
+    padding-bottom: 20px;
+    color: black;
+}
+
+.headerTitleCont {
+    padding-left: 20%;
+    font-size: 300%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.about-container {
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    display: block;
+    margin-bottom: 3%;
+}
+
+.aboutInfo{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 20%; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 20%;
+    overflow: hidden;
+}
+
+.aboutT{
+    font-size: 150%;
+    color:rgb(0, 58, 109);
+    transition: 0.3s;
+}
+
+.me{
+    height: 300px;
+    max-width: none;
+    border-radius: 15px;
+}

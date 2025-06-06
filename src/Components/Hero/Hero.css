@@ -1,0 +1,38 @@
+.hero{
+    margin-top: 7%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.intro{
+    color:rgb(0, 0, 0);
+    margin-bottom: 5%;
+    font-size: 200%;
+
+}
+.name{
+    font-size: 700%;
+    margin-bottom: 5%;
+}
+.title{
+    color:rgb(114, 114, 114);
+    margin-bottom: 15%;
+}
+.button{
+    margin-top: 5%;
+    height: 70px;
+    width: 160px;
+    margin: auto;
+    background-color:#fffaf1;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10%;
+    transition: 0.5s;
+}
+.buttonText{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.button:hover{
+    transform: scale(1.15);
+}

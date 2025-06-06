@@ -1,0 +1,109 @@
+.container {
+    padding-top: 2%;
+    width: 100%;
+    display: block;
+}
+
+.header {
+    padding-bottom: 20px;
+    color: black;
+}
+
+.headerTitle {
+    padding-left: 20%;
+    font-size: 300%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.projects-container {
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    display: block;
+    margin-bottom: 3%;
+}
+
+.project {
+    width: 100%;
+    padding: 20px;
+    padding-left: 20%;
+    border-bottom: 7px solid #ccc;
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.but{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 20%; 
+}
+
+.project-t{
+    font-size: 260%;
+    color:rgb(0, 58, 109);
+    transition: 0.3s;
+}
+
+.triangle-down{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #bdbdbd;
+    transition: transform 0.3s ease;
+}
+
+.project.expanded .triangle-down {
+    transform: rotate(180deg);
+}
+
+.project-t:hover {
+    font-size: 270%;
+}
+
+.project-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 120%;
+}
+
+.project.expanded .project-content {
+    max-height: 500px;
+}
+
+.project-description {
+    margin-bottom: 20px;
+    color: #333;
+    line-height: 1.5;
+    margin-right: 20%;
+}
+
+.project-technologies h3 {
+    color: #444;
+    margin-bottom: 10px;
+    font-size: 150%;
+}
+
+.project-technologies ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20%;
+}
+
+.project-technologies li {
+    display: inline-block;
+    background-color: #fff;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+
